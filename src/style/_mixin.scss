@@ -1,0 +1,16 @@
+@mixin flex-center($justify: center) {
+  display: flex;
+  justify-content: $justify;
+  align-items: center;
+}
+
+@mixin d-center {
+  display: flex;
+  align-items: center;
+}
+
+@mixin d-col-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

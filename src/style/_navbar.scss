@@ -1,0 +1,35 @@
+.site-nav {
+  background: var(--light-blue);
+  border-bottom: 1px solid var(--heaven);
+  padding-top: 14px;
+  padding-bottom: 14px;
+  .navbar {
+    .navbar-nav {
+      .nav-item {
+        @include d-center;
+
+        .dropdown-menu {
+          background-color: transparent;
+          border: none;
+          padding: 0;
+          &.dropdown-toggle {
+            color: red;
+          }
+          .dropdown-item {
+            padding-left: 10px;
+            color: var(--heaven);
+          }
+        }
+
+        &:not(:last-child) {
+          margin-right: 57px;
+        }
+        .nav-link {
+          &:hover {
+            color: var(--heaven);
+          }
+        }
+      }
+    }
+  }
+}
