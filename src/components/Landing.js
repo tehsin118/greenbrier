@@ -2,6 +2,8 @@ import React from "react";
 import "../style/main.scss";
 import about from "../assets/about.png";
 import card from "../assets/card.png";
+import block from "../assets/expblock.png";
+import expback from "../assets/expertiseBack.png";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -129,6 +131,9 @@ const Landing = () => {
               </p>
             </div>
           </div>
+        </div>
+        <div className="exp-back">
+          <img src={expback} alt="back img" className="" />
         </div>
       </section>
     </>
